@@ -1,0 +1,111 @@
+
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.874);
+    border-radius: 5rem 0rem 0rem 0rem;
+    
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    
+    height: 30rem;
+    width: 25rem;
+}
+
+.Login {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    color: rgb(35, 99, 156);
+    width: fit-content;
+    
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.4rem;
+    
+}
+
+.google {
+    background-color: rgba(234, 215, 215, 0.855);
+    color: rgb(35, 99, 156);
+    padding: 1rem;
+}
+
+.facebook {
+    background-color: #b3e1e0c5;
+    color: rgb(35, 99, 156);
+    padding: 1rem;
+}
+
+.or {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    color: rgb(35, 99, 156);
+}
+
+.out {
+    font-family: 'Lexend', sans-serif;
+    color: rgb(35, 99, 156);
+    
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.outbox {
+    margin-top: 10px;
+}
+.textbox {
+    height: 2.5rem;
+    width: 20.2rem;
+    
+    border: none;
+    background-color:#e5ccbbb4;
+    
+    color: rgba(2, 51, 69, 0.945);
+    font-family: 'Lexend', sans-serif;
+    padding-left: 1rem;
+}
+
+.textbox::placeholder {
+    color: rgba(255, 255, 255, 0.792);
+}
+
+.pwd {
+    margin-top: 1rem;
+}
+
+
+.button {
+    background-color: #b3e1b3c5;
+    width: 21.3rem;
+    margin-top: 2rem;
+}
+
+.signing {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-size: large;
+    font-family: 'Lexend', sans-serif;
+    color: rgba(12, 98, 129, 0.969);
+}
+
+span {
+    color: #a3e0a3c5;
+}
